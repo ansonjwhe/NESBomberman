@@ -48,7 +48,7 @@ Place bombs
 Collect powerups
 
 Score
-kill: +1000 * (combo ^ 2) 
+kill: +1000 * (combo ^ 2)
 combo is # of kills with single bomb
 clear level: +10000
 player death from enemy: -3000
