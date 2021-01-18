@@ -8,6 +8,7 @@ Traditional NES Bomberman Game in Turing
 ![2 player bomberman gameplay](https://i.imgur.com/HbkU64k.png)
 
 Tutorial
+
 ![bomberman tutorial](https://i.imgur.com/TRajr0X.png)
 
 Graphics:
