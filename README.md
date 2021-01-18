@@ -1,9 +1,12 @@
 # NESBomberman
 Traditional NES Bomberman Game in Turing
+
 1 player gameplay
 ![1 player bomberman gameplay](https://i.imgur.com/S7MJBxc.png)
+
 2 player gameplay
 ![2 player bomberman gameplay](https://i.imgur.com/HbkU64k.png)
+
 Tutorial
 ![bomberman tutorial](https://i.imgur.com/TRajr0X.png)
 
