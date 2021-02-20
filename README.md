@@ -8,8 +8,8 @@ Bomberman Game in Turing inspired by the original NES Bomberman (1983)
 ![2 player bomberman gameplay](https://i.imgur.com/HbkU64k.png)
 
 ## Tutorial
-![bomberman tutorial](https://i.imgur.com/TRajr0X.png)
 The tutorial teaches basic movement and bomb placement controls while introducing enemies, items, and the score system.
+![bomberman tutorial](https://i.imgur.com/TRajr0X.png)
 
 ## Sprites Folder
 
