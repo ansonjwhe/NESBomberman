@@ -11,8 +11,7 @@ Bomberman Game in Turing inspired by the original NES Bomberman (1983)
 The tutorial teaches basic movement and bomb placement controls while introducing enemies, items, and the score system.
 ![bomberman tutorial](https://i.imgur.com/TRajr0X.png)
 
-## Sprites Folder
-
+## Sprites and Graphics Folder
 - solid block
 - breakable item block
 - ladder (warps to the next level)
@@ -25,17 +24,6 @@ The tutorial teaches basic movement and bomb placement controls while introducin
 
 ## Gameplay and Design
 
-### Enemies
-Chooses a random direction to move in at each intersection, will not backtrack on straightaways
-
-### Items
-- Dropped from breakable item blocks
-- Breakeable item block icon in player banner indicates number of items picked up
-- Spawn rate decreases with the number of items picked up
-- Start the level with the same number of powerups as the level number
-- Pierce and Kick are passive abilities that do no stack
-- All other powerups stack
-
 ### Legend for level design from "LEVELS.TXT"
 - -3 = edges of explosion cross
 - -2 = connectors of explosion cross
@@ -46,18 +34,29 @@ Chooses a random direction to move in at each intersection, will not backtrack o
 - 3 = breakable item blocks
 - 4 = spawned enemies
 
+### Players
+- 1 player controls: WASD + spacebar
+- 2 player controls: WASD + '1' and arrow keys + '/'
+- Kick powerup allows player to kick bombs in a straight path
+- Boots powerup increases player movement speed
+
 ### Bombs
 - Flame powerup increases blast length
 - Bomb powerup increases number of bombs that can be placed
 - Pierce powerup allows blast to pierce through breakable item blocks
 - Bombs can trigger other bombs through chain detonation
 - Bombs are immobile once placed, unless player has the Kick powerup
+- 
+### Enemies
+Chooses a random direction to move in at each intersection, will not backtrack on straightaways
 
-### Players
-- 1 player controls: WASD + spacebar
-- 2 player controls: WASD + '1' and arrow keys + '/'
-- Kick powerup allows player to kick bombs in a straight path
-- Boots powerup increases player movement speed
+### Items
+- Dropped from breakable item blocks
+- Breakeable item block icon in player banner indicates number of items picked up
+- Spawn rate decreases with the number of items picked up
+- Start the level with the same number of powerups as the level number
+- Pierce and Kick are passive abilities that do no stack
+- All other powerups stack
 
 ### Score Modifiers
 - kill: +1000 * (combo ^ 2), combo is # of kills with single bomb
